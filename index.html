@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jason Lee 的个人学术网站，记录研究兴趣、项目与最新动态。"
+    />
+    <meta name="theme-color" content="#f4f1ea" />
+    <title>Jason Lee | Personal Academic Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Franklin:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="返回首页">
+        <span class="wordmark-mark">JL</span>
+        <span>Jason Lee</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">打开菜单</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#interests">研究</a>
+        <a href="#work">项目</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Personal academic website · 2026</p>
+          <h1 id="hero-title">
+            你好，我是 Jason。
+            <span>我对值得深入的问题保持好奇。</span>
+          </h1>
+          <p class="hero-intro">
+            欢迎来到我的个人网站。这里将记录我的研究兴趣、正在进行的项目，
+            以及沿途形成的想法与作品。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">浏览项目</a>
+            <a class="button button-secondary" href="mailto:extreme-jason@berkeley.edu">
+              给我写信
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <aside class="profile-card" aria-label="个人信息">
+          <div class="portrait" aria-hidden="true">
+            <span>J</span>
+            <span>L</span>
+            <div class="portrait-orbit"></div>
+          </div>
+          <div class="profile-meta">
+            <div>
+              <span class="meta-label">Based in</span>
+              <strong>Berkeley, California</strong>
+            </div>
+            <div>
+              <span class="meta-label">Currently</span>
+              <strong>Learning · Researching · Building</strong>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="section-heading">
+          <p class="section-number">01</p>
+          <h2>关于我</h2>
+        </div>
+        <div class="about-grid">
+          <p class="about-lead">
+            我相信好的研究始于清晰的问题，也终于能被他人理解和使用的答案。
+          </p>
+          <div class="about-copy">
+            <p>
+              这个网站正在随着我的学习与工作持续生长。我会在这里整理个人经历、
+              学术探索、项目成果和阶段性思考。
+            </p>
+            <p>
+              比起堆砌信息，我更希望它成为一份清晰、诚实且长期更新的个人档案。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="interests" class="section">
+        <div class="section-heading">
+          <p class="section-number">02</p>
+          <h2>研究兴趣</h2>
+          <p class="section-note">Research interests</p>
+        </div>
+        <div class="interest-list">
+          <article class="interest-item">
+            <span class="interest-index">A</span>
+            <div>
+              <h3>Human-Centered Technology</h3>
+              <p>探索技术如何更自然、更负责任地服务于人的真实需求。</p>
+            </div>
+            <span class="interest-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="interest-item">
+            <span class="interest-index">B</span>
+            <div>
+              <h3>Data &amp; Intelligent Systems</h3>
+              <p>从数据中建立可靠的理解，并将模型转化为可验证的系统。</p>
+            </div>
+            <span class="interest-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="interest-item">
+            <span class="interest-index">C</span>
+            <div>
+              <h3>Interdisciplinary Research</h3>
+              <p>在不同领域的交汇处寻找新问题、新方法与新的合作可能。</p>
+            </div>
+            <span class="interest-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section work-section">
+        <div class="section-heading">
+          <p class="section-number">03</p>
+          <h2>项目与动态</h2>
+          <p class="section-note">Selected work</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-card-featured">
+            <div class="project-topline">
+              <span>Featured · 2026</span>
+              <span>01</span>
+            </div>
+            <div class="project-visual visual-one" aria-hidden="true">
+              <span class="visual-ring"></span>
+              <span class="visual-dot dot-one"></span>
+              <span class="visual-dot dot-two"></span>
+              <span class="visual-line"></span>
+            </div>
+            <div class="project-copy">
+              <h3>新的项目正在整理中</h3>
+              <p>这里将展示研究项目的背景、方法、成果和相关链接。</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-topline">
+              <span>Notes · Ongoing</span>
+              <span>02</span>
+            </div>
+            <div class="project-visual visual-two" aria-hidden="true">
+              <span>IDEAS</span>
+              <span>PROCESS</span>
+              <span>NOTES</span>
+            </div>
+            <div class="project-copy">
+              <h3>研究笔记与思考</h3>
+              <p>记录阅读、实验和讨论中值得保留的线索。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <p class="eyebrow">Let’s connect</p>
+        <h2>有一个有趣的问题？<br />欢迎来聊聊。</h2>
+        <a class="contact-link" href="mailto:extreme-jason@berkeley.edu">
+          extreme-jason@berkeley.edu
+          <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year">2026</span> Jason Lee</p>
+      <p>Designed and built with curiosity.</p>
+      <a href="#top">回到顶部 ↑</a>
+    </footer>
+  </body>
+</html>
